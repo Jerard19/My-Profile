@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PORTFOLIO</title>
+<link rel="stylesheet"type ="text/css" href="style.css">
+
+<!---box icons link --->    
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<!---remix icons link --->
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+rel="stylesheet"/>
+
+<!---google fonts link --->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <script src = "script.js"></script>
+
+<header>
+<a href="#" class = "logo">PORTFOLIO</a>
+
+<ul class = "navlist">
+
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Skills</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+<div class="nav-right">
+<a href=""# class="nav-btn"> Hire me!</a>
+<div class="bx bx-menu" id="menu-icon"></div>
+</div>
+</header>
+<section class = "hero">
+<div class ="hero-text">
+<h6> hello <span> my name is</span></h6>
+<h1>Jerard <span>Serrano</span></h1>
+<h4>I am <span class = "input"> </span></h4>
+<p>A passionate Computer Engineer with expertise in software development 
+and a commitment to diversity in STEM, brings innovation to the tech world, 
+specializing in embedded systems, machine learning, and cybersecurity.</p>
+
+
+<div class="hero-icons">
+    <a href="https://www.facebook.com/Jerard.serrano19"><i class="ri-facebook-fill"></i></a>
+    <a href="https://www.instagram.com/_jerardddd/"><i class="ri-instagram-fill"></i></a>
+    <a href="https://www.linkedin.com/in/jerard-serrano-a10434290/"><i class="ri-linkedin-fill"></i></a>
+    <a href="https://github.com/Jerard19"><i class="ri-github-fill"></i></a>
+</div>
+<div class="hero-btn">
+    <a href="https://drive.google.com/file/d/1e6QpViJQxQK2sIIHzhrFKH1rKlYaq1AT/view?usp=sharing" class="btn"> Download CV</a>
+    <a href="#" class="btn2"> My Skills</a>
+</div>
+</div>
+<div class="hero-img"></div>
+<img src="pic.jpg">
+
+</section>
+<div class = "scroll ">
+<a href=""><i class="ri-scroll-to-bottom-fill"></i>Scroll to bottom</a>
+</div>
+
+<!---about-->
+<section class = "About" id = "About">
+<div  class = "mid-text">
+<h2> WHAT I DO</h2>
+<h4> About</h4>
+
+<div class = "about content">
+<div class = "box" >
+    <h6> web development</h6>
+    <h3>web design & logo</h3>
+    <p>Web designer craft the overall vision & plan for a website layout. Professional logo development:
+        business, Compnay or Personal</p>
+
+        <div class = "link">
+            <a href="#">About <i class="ri-arrow-right-up-line"></i></a>
+        </div>
+
+</div>
+</div>
+
+<div class = "box" >
+<h6> System Developer</h6>
+<h3>Embedded Systems</h3>
+<p>Web designer craft the overall vision & plan for a website layout. Professional logo development:
+    business, Compnay or Personal</p>
+
+    <div class = "link">
+        <a href="#">About <i class="ri-arrow-right-up-line"></i></a>
+    </div>
+
+    <div class = "box" >
+        <h6> Operating Systems</h6>
+        <h3> Operating System </h3>
+        <p>Web designer craft the overall vision & plan for a website layout. Professional logo development:
+            business, Compnay or Personal</p>
+
+            <div class = "link">
+                <a href="#">About <i class="ri-arrow-right-up-line"></i></a>
+            </div>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script type = "text/javascript">
+var typed = new Typed (".input", {
+strings: ["Computer Engineering Student.", " Web Developer.", "Ui and Ux Designer."],
+typeSpeed: 60,
+backSpeed: 50,
+loop: true
+});
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () =>{
+menu.classList.toggle ('bx-x');
+navlist.classList.toggle('open');
+}
+
+</script>
+
+
